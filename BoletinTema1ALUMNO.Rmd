@@ -97,6 +97,23 @@ summarise(df.A)
 ```
 
 b.  Usa las funciones **dim, head, tail, str** para una primera visión de los conjuntos de datos.
+```{r}
+dim(df.m)
+
+dim(df.A)
+
+
+head(df.m)
+
+head(df.A)
+
+
+str(df.m)
+
+str(df.A)
+
+```
+
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
