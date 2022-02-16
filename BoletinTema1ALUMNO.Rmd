@@ -206,30 +206,36 @@ head(libReturn$results,n=5)
     d.  Utiliza la función **summary**, sobre **cabbages** y **Chile** y observa como, además de otros estadísticos, también devuelve el número de valores perdidos de cada variable.
 
 ```{r}
+# a
+# Primera etapa
+head(cabbages)
+# Segunda etapa
+dim(cabbages)
+# Tercera etapa
+str(cabbages)
 
 
+# b
+any(is.na(cabbages))
+# No hay valores perdidos en el conjunto cabbages
 
 
+# c
+# Primera etapa
+head(Chile)
+# Segunda etapa
+dim(Chile)
+# Tercera etapa
+str(Chile)
+
+any(is.na(Chile))
+# Si hay valores perdidos
 
 
+# d
+summary(cabbages)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+summary(Chile)
 
 
 
